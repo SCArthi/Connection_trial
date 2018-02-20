@@ -1,4 +1,29 @@
 *{
-	background-color: pink;
-	float: left;
+	background-color: skyblue;	
+}
+
+h1{
+	text-align:center;
+	color: blue;
+	text-decoration: underline;
+}
+
+h3{
+	text-align:center;
+	color: blue;	
+}
+
+label{
+	
+}
+
+fieldset{
+	text-align: center;
+	border-width: 5px;
+}
+
+input{
+	height:20px;  
+    width:220px;  
+    padding:5px 8px;
 }

@@ -22,6 +22,7 @@
 </h1>
 <h3>Add a New Student</h3>
 
+<fieldset>
 <label>
 	First Name : 
 		<input type="text" name="firstname" placeholder="First Name" required>
@@ -77,7 +78,8 @@
 	Lunch Cost : 
 		<input type="number" name="cost" placeholder="Lunch Cost" required>
 </label>
+</fieldset>
 <br><br>
-<label>
+<label id="submit">
 	<input type="submit" name="submit" value="Send" onclick="getConfirmation();">
 </label>
